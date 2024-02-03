@@ -17,9 +17,6 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -80,28 +77,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: api.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test create new user normal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test get list data normal (1).executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test get list data normal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test update user normal.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build DemoAPIJayjay.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build DemoApiJayjay.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.apiRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.apirunner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jamal/IdeaProjects/java-api-web-automation&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jamal/IdeaProjects/DemoApiJayjay/src/main/java/org/mahardika/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: api.executor": "Run",
+    "Cucumber Java.Scenario: Test create new user normal.executor": "Run",
+    "Cucumber Java.Scenario: Test get list data normal (1).executor": "Run",
+    "Cucumber Java.Scenario: Test get list data normal.executor": "Run",
+    "Cucumber Java.Scenario: Test update user normal.executor": "Run",
+    "Gradle.Build DemoAPIJayjay.executor": "Run",
+    "Gradle.Build DemoApiJayjay.executor": "Run",
+    "Gradle.apiRunner.executor": "Run",
+    "Gradle.apirunner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jamal/IdeaProjects/DemoApiTest",
+    "onboarding.tips.debug.path": "C:/Users/jamal/IdeaProjects/DemoApiJayjay/src/main/java/org/mahardika/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.apiRunner">
     <configuration name="Feature: api" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
