@@ -23,7 +23,21 @@ Sebelum menggunakan project ini, siapkan environment sebagai berikut :
 3. Setting JDK yang sesuai dan tidak lupa menggunakan gradle wrapper untuk gradle distributionnya
 4. Setelah terdeploy di IDE dan Build Succesful, buka file build.gradle
 5. Periksa di build.gradle apakah depedencies sesuai seperti berikut
-   <img width="364" alt="Screenshot 2024-02-04 112439" src="https://github.com/mbahkungedan/java-test-api/assets/119036380/d4e38a59-43c5-4e13-b801-4015bbd6891c">
+   >dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.10.1'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.10.1'
+    testImplementation group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.10.1'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.15.0'
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.15.0'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
+    implementation group: 'org.json', name: 'json', version: '20231013'
+    testImplementation group: 'io.rest-assured', name: 'json-path', version: '5.4.0'
+    implementation group: 'io.rest-assured', name: 'json-schema-validator', version: '5.4.0'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.25.2'
+    implementation group: 'io.cucumber', name: 'cucumber-jvm', version: '7.15.0', ext: 'pom'
+}
 
 # Run the Project
 Project ini berisikan 4 test case untuk pengujian API dan sebelum dimulai pastikan id user valid. 4 Test case yaitu :
