@@ -38,7 +38,7 @@ Sebelum menggunakan project ini, siapkan environment sebagai berikut :
     implementation group: 'io.rest-assured', name: 'json-schema-validator', version: '5.4.0'
     testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.25.2'
     implementation group: 'io.cucumber', name: 'cucumber-jvm', version: '7.15.0', ext: 'pom'}
-```
+
 
 # Run the Project
 Project ini berisikan 4 test case untuk pengujian API dan sebelum dimulai pastikan id user valid. 4 Test case yaitu :
