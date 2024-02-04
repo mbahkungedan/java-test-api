@@ -51,6 +51,7 @@ Project ini berisikan 4 test case untuk pengujian API dan sebelum dimulai pastik
 Kita bisa jalankan lewat terminal dengan menggunakan kode :
 ```
 ./gradlew apiTest
+```
 
 dan hasilnya akan seperti screenshots berikut
 <img width="909" alt="Screenshot 2024-02-04 114719" src="https://github.com/mbahkungedan/java-test-api/assets/119036380/0fb12e7e-1812-4966-ab39-cdba0cfe41fd">
