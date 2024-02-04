@@ -49,7 +49,8 @@ Project ini berisikan 4 test case untuk pengujian API dan sebelum dimulai pastik
 
 ## How to run
 Kita bisa jalankan lewat terminal dengan menggunakan kode :
->./gradlew apiTest
+```./gradlew apiTest
+
 
 
 
