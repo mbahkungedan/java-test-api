@@ -52,8 +52,9 @@ Kita bisa jalankan lewat terminal dengan menggunakan kode :
 ```
 ./gradlew apiTest
 
+dan hasilnya akan seperti screenshots berikut
+<img width="909" alt="Screenshot 2024-02-04 114719" src="https://github.com/mbahkungedan/java-test-api/assets/119036380/0fb12e7e-1812-4966-ab39-cdba0cfe41fd">
+<img width="894" alt="Screenshot 2024-02-04 114738" src="https://github.com/mbahkungedan/java-test-api/assets/119036380/b44b1662-ed3c-459a-9c99-d18b22f61c1e">
 
-
-
-
-
+Untuk melihat report dari pengujian silahkan periksa di file cucumber-api-report.html di package reports. Buka file dengan browser dan akan tampil seperti berikut :
+<img width="943" alt="Screenshot 2024-02-04 115244" src="https://github.com/mbahkungedan/java-test-api/assets/119036380/2a36524f-bf06-4dc5-a149-e38b72f28098">
